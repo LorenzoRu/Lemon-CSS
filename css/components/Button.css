@@ -1,0 +1,27 @@
+@import url(../variable.css);
+
+.btn {
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--font-secondary);
+}
+
+.btn-primary:hover {
+    background-color: var(--hover-primary);
+}
+
+.btn-outlined-primary {
+color: var(--color-primary);
+background-color: transparent;
+border: solid 1px var(--color-primary);
+}
+
+.btn-outlined-primary:hover {
+    background-color: var(--color-primary);
+    color: var(--font-secondary);
+} 

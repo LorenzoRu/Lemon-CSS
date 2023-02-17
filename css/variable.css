@@ -1,7 +1,9 @@
 :root{
     --color-primary: #23B2A5;
+    --hover-primary: #29ccbe;
 
     --font-primary: #777;
+    --font-secondary: whitesmoke; 
 }
 
 
