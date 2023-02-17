@@ -1,0 +1,43 @@
+@import url(variable.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 65.5%;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--font-primary); 
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+
+.container {
+    padding-inline: 2rem;
+    margin-inline: auto;
+}
+
+
+
