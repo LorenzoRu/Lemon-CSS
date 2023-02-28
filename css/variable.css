@@ -1,12 +1,38 @@
-:root{
-    --color-primary: #23B2A5;
-    --hover-primary: #29ccbe;
+:root {
+  /* colors */
+  --color-primary: #23b2a5;
+  --hover-primary: #29ccbe;
+  --color-secondary: #ce8dad;
 
-    --font-primary: #777;
-    --font-secondary: whitesmoke; 
+  /* font  */
+  --font-primary: #3C4F6C;
+  --font-secondary: whitesmoke;
+  --font-h1: 36px;
+}
+.primary {
+  color: var(--color-primary);
 }
 
+.secondary {
+  color: var(--color-secondary);
+}
 
 .bg-primary {
-    background-color: var(--color-primary);
+  background-color: var(--color-primary);
 }
+
+.font-primary {
+  color: var(--font-primary);
+}
+.font-secondary {
+  color: var(--font-secondary);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.fs-1 {
+  font-size: var(--font-h1);
+}
+

@@ -1,9 +1,15 @@
 @import url(variable.css);
 @import url(./components/Button.css);
+@import url(./custom/nav.css);
 
-* {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
   text-decoration: none;
+
 }
 
 html {
@@ -11,12 +17,16 @@ html {
 }
 
 body {
-    min-height: 100vh;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--font-primary); 
     scroll-behavior: smooth;
     line-height: 1;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .flex {
@@ -24,18 +34,25 @@ body {
   gap: var(--gap, 1rem);
 }
 
-.justify-content-around {
+.space-around {
     justify-content: space-around;
 }
 
-.justify-content-between {
+.space-between {
     justify-content: space-between;
 }
 
+.align-items-center {
+  align-items: center;
+}
 
 .container {
     padding-inline: 2rem;
     margin-inline: auto;
+}
+
+.column {
+  flex-direction: column;
 }
 
 
